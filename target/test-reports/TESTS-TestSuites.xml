@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="NW980944" id="0" name="PizzaShopControllerTests" package="com.uber.pizza" tests="1" time="0.175" timestamp="2012-12-11T14:30:08">
+      <properties />
+
+      <testcase classname="com.uber.pizza.PizzaShopControllerTests" name="testPizzaFlow" time="0.036">
+          <error message="grails.test.mixin.webflow.WebFlowUnitTestSupport: method &lt;init&gt;()V not found" type="java.lang.NoSuchMethodError">java.lang.NoSuchMethodError: grails.test.mixin.webflow.WebFlowUnitTestSupport: method &lt;init&gt;()V not found
+	at TestApp$_run_closure4.doCall(TestApp:290)
+	at TestApp$_run_closure2.doCall(TestApp:248)
+	at TestApp$_run_closure1_closure21.doCall(TestApp:195)
+	at TestApp$_run_closure1.doCall(TestApp:184)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:82)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testPizzaFlow--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testPizzaFlow--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="NW980944" id="1" name="PizzaShopServiceTests" package="com.uber.pizza" tests="1" time="0.193" timestamp="2012-12-11T14:30:08">
+      <properties />
+
+      <testcase classname="com.uber.pizza.PizzaShopServiceTests" name="testSomething" time="0.086">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at com.uber.pizza.PizzaShopServiceTests.testSomething(PizzaShopServiceTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="NW980944" id="2" name="ToppingsControllerTests" package="com.uber.pizza" tests="1" time="1.057" timestamp="2012-12-11T14:30:08">
+      <properties />
+
+      <testcase classname="com.uber.pizza.ToppingsControllerTests" name="testSomething" time="1.053">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at com.uber.pizza.ToppingsControllerTests.testSomething(ToppingsControllerTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

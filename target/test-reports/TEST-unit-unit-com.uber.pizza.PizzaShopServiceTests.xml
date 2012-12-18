@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="NW980944" name="com.uber.pizza.PizzaShopServiceTests" tests="1" time="0.193" timestamp="2012-12-11T14:30:08">
+  <properties />
+  <testcase classname="com.uber.pizza.PizzaShopServiceTests" name="testSomething" time="0.086">
+    <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at com.uber.pizza.PizzaShopServiceTests.testSomething(PizzaShopServiceTests.groovy:15)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>
